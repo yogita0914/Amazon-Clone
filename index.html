@@ -4,8 +4,314 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <h1>this is heading</h1>
+    <nav class="navbar">
+        <div class="amazon-logo">
+            <img src="images/Amazon-India-Logo-PNG-White2.png" alt="">
+        </div>
+        <div class="amazon-heading">
+            <p>Delivering to Bengaluru 560067</p>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Update location</h4>
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="select-menu">
+                <select name="All-item" id="drop-down">
+                    <option value="ll">All</option>
+                    <option value="All Categories">All Categories</option>
+                    <option value="Alexa Skills">Alexa Skills</option>
+                    <option value="Amazon Fashion">Amazon Fashion</option>
+                    <option value="Amazon Fresh">Amazon Fresh</option>
+                    <option value="Amazon Fresh Meat">Amazon Fresh Meat</option>
+                    <option value="Amazon Pharmacy">Amazon Pharmacy</option>
+                    <option value="Appliances">Appliances</option>
+                    <option value="Apps & Games">Apps & Games</option>
+                    <option value="Audible Audiobooks">Audible Audiobooks</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Books">Books</option>
+                    <option value="Car & Motorbike">Car & Motorbike</option>
+                    <option value="Clothing & Accessories">Clothing & Accessories</option>
+                    <option value="Collectives">Collectives</option>
+                    <option value="Computer & Accessories">Computer & Accessories</option>
+                    <option value="Deals">Deals</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Jewellery">Jewellery</option>
+                    <option value="Kindle store">Kindle store</option>
+                    <option value="Luggage & Bags">Luggage & Bags</option>
+                    <option value="Movies & Tv Shows">Movies & Tv Shows</option>
+                    <option value="Mp3 Music">Mp3 Music</option>
+                    <option value="Music">Music</option>
+                    <option value="Musical Instruments">Musical Instruments</option>
+                    <option value="Office Products">Office Products</option>
+                    <option value="Pet Supplies">Pet Supplies</option>
+                    <option value="Prime Video">Prime Video</option>
+                </select>
+            </div>
+            <div class="input-text">
+                <input type="text" placeholder="Search Amazon.in">
+            </div>
+            <div class="button-icon">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <select name="countries" id="country-select">
+            <option type="radio" value="EN">🇮🇳EN</option>
+            <option value="HN">हिंदी-Hi</option>
+            <option value="TA">தமிழ்-TA</option>
+            <option value="TE">తెలుగు-TE</option>
+            <option value="KN">ಕನ್ನಡ-KN</option>
+            <option value="ML">മലയാളം-ML</option>
+            <option value="BN">বাংলা-BN</option>
+            <option value="MR">मराठी-MR</option>
+        </select>
+        <div class="amazon-heading-2">
+            <p>Hello, sign in</p>
+            <select name="" id="account-list">
+                <option value="">Account & List</option>
+            </select>
+        </div>
+        <div class="amazon-heading-3">
+            <p>Returns</p>
+            <h4>& Orders</h4>
+        </div>
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-plus"></i>
+            <sup>cart</sup>
+        </div>
+    </nav>
+    <div class="list-varities">
+        <div class="sideBar">
+            <i class="fa-solid fa-bars"></i>
+            <h3>All</h3>
+        </div>
+        <select name="fresh" id="fresh-menu">
+            <option value="fresh">Fresh</option>
+        </select>
+        <div class="items-heading">
+            <h2>Sell</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Best Sellers</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Mobiles</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Today's Deals</h2>
+        </div>
+        <select name="prime" id="prime_tv">
+            <option value="prime">Prime</option>
+        </select>
+        <div class="items-heading">        
+            <h2>Customer Service</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Electronics</h2>
+        </div>
+        <div class="items-heading">
+            <h2>New Release</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Home & Kitchen</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Amazon Pay</h2>
+        </div>
+        <div class="items-heading">
+            <h2>Fashion</h2>
+        </div>
+    </div>
+    <div class="main-container">
+        <img src="images/background.jpg" alt="">
+        <div class="first-images">
+            <div class="cards">
+                <h1>Appliances for your home | Up to 55% off</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/air-conditoner.jpeg" alt="">
+                        <p>Air conditioner</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/fridge.jpeg" alt="">
+                        <p>Refrigerators</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/tv.jpeg" alt="">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/washing-machine.jpeg" alt="">
+                        <p>Washing Machine</p>
+                    </div>
+                </div>
+                <p class="seeMore">See More</p>
+            </div>
+            <div class="cards">
+                <h1>Up to 60% off | Styles for men</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/clothes.jpg" alt="">
+                        <p>Clothing</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/footwear.jpg" alt="">
+                        <p>Footwear</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/watches.jpg" alt="">
+                        <p>Watches</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/bags.jpg" alt="">
+                        <p>Bags & Wallets</p>
+                    </div>
+                </div>
+                <p class="seeMore">End of season sale</p>
+            </div>
+            <div class="cards">
+                <h1>Up to 75% off | Headphones</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/boat.jpg" alt="">
+                        <p>Up boAt 75% off</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/boult.jpg" alt="">
+                        <p>Up bout 75% off</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/bolt.jpg" alt="">
+                        <p>Noise 75% off</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/zebronics.jpg" alt="">
+                        <p>Zebronics 75% off</p>
+                    </div>
+                </div>
+                <p class="seeMore">See all offers</p>
+            </div>
+          <div>
+            <div class="signup-card">
+                <h1>Sign in for your best experience</h1>
+                <button>Sign In Securely</button>
+            </div>
+            <div class="dry-fruits-cards">
+                <img src="images/badaam.jpeg" alt="">
+                <p>Original<sup>TM</sup> Premium Inshell Almonds | Kagzi Badaam (बादाम) | Healthy Dry Fruits | 5kg</p>
+            </div>
+          </div>
+        </div>
+        <div class="first-images">
+            <div class="cards">
+                <h1>Starting ₹99 | All your home improvement</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/mops.jpg" alt="">
+                        <p>Spin mops</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/bathroom.jpg" alt="">
+                        <p>Bathroom hardware</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/hammers.jpg" alt="">
+                        <p>Hammers & more</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/extension.jpg" alt="">
+                        <p>Extension</p>
+                    </div>
+                </div>
+                <p class="seeMore">Explore All</p>
+            </div>
+            <div class="cards">
+                <h1>Revamp your home in style</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/cusion.jpg" alt="">
+                        <p>Cushion</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/vase.jpg" alt="">
+                        <p>vases and more</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/home.jpg" alt="">
+                        <p>Home storage</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/lighting.jpg" alt="">
+                        <p>Lighting solutions</p>
+                    </div>
+                </div>
+                <p class="seeMore">Explore All</p>
+            </div>
+            <div class="cards">
+                <h1>Up to 60% off | Styles for women</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/women.jpg" alt="">
+                        <p>Women's clothing</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/handbags.jpg" alt="">
+                        <p>Footwear+Handlings</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/watches.jpg" alt="">
+                        <p>Watches</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/fashion.jpg" alt="">
+                        <p>Fashion Jewellery</p>
+                    </div>
+                </div>
+                <p class="seeMore">End of season sale</p>
+            </div>
+            <div class="cards">
+                <h1>Automotive essentials | Up to 60% off</h1>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/cleaning.jpg" alt="">
+                        <p>Cleaning Accessories</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/trim.jpg" alt="">
+                        <p>Tyre & rim care</p>
+                    </div>
+                </div>
+                <div class="Appliances-images">
+                    <div class="images">
+                        <img src="images/helmets.jpg" alt="">
+                        <p>Helmets</p>
+                    </div>
+                    <div class="images">
+                        <img src="images/vaccum.jpg" alt="">
+                        <p>Vaccum cleaner</p>
+                    </div>
+                </div>
+                <p class="seeMore">See More</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
