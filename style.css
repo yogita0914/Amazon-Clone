@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: black;
+    width: 100%;
+} */
+.container{
+    background-color: black;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    height:90px;
+    width: 100%;
+    position: relative;
+}
+.main-nav{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: fixed; 
+    z-index: 1;
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+ul div{
+    display: flex;
+}
+ul img{
+    height: 30px;
+    margin-left: 3rem;
+}
+ul a{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 2rem;
+    font-size: 15px;
+    color: white;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(252, 3, 157);
+    font-weight: bold;
+}
+.fa-amazon{
+    color:rgb(243, 90, 35);
+    font-size: 23px;
+    margin-left: 10rem;
+    margin-top: 5px;
+}
+.fa-gear{
+    color: white;
+    font-size: 18px;
+     margin-right: 2rem;
+     margin-top: 5px;
+}
+.container-img{
+    height: 275px;
+    width: 100%;
+}
+.first-img{
+    background-image: url(https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_FB_LoveAdhura/b15151c4-0911-45e7-ac98-f3987442cb02.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+}
+.second-con{
+     color: white;
+     padding: 25px;
+}
+.second-con h3{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.first-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.first-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.first-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.second-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.second-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.second-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.third-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.third-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.third-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.fourth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.fourth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.fourth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.fifth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.fifth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.fifth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.sixth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.sixth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.sixth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.seventh-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.seventh-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.seventh-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.eight-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.eight-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.eight-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.nineth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.nineth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.nineth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.tenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.tenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.tenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.eleventh-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.eleventh-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.eleventh-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.twelth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.twelth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.twelth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.thirteenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.thirteenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.thirteenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.fouteenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.fouteenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.fouteenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
