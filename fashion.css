@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height:8vh;
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin-top: 25px;
+    font-size:1vw;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.secondpart{
+    padding: 10px;
+}
+.pictures{
+    height: 30vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+}
+.firstpic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: 2px solid green; */
+    margin-left: 20px;
+}
+img{
+    height:200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    margin-top:0.5rem;
+    height:4vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-left: 1rem;
+}
+.all{
+    display: flex;
+}
+
+.thirdsection{
+    height:21.5vh;
+    width: 100%;
+    padding-top:10px;
+}
+.girlboypic{
+    height: 20vh;
+    width: 100%;
+}
+.girlboypic img{
+    height:19.5vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.forthsection{
+    background-color: gainsboro;
+    padding:0 30px 30px 30px;
+}
+.bigimage{
+    /* border: 3px solid red; */
+    width: 100%;
+}
+.bigimage img{
+    height:50vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.whilediv{
+    background-color: white;
+    height:55vh;
+}
+.dots{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    padding-top:10px;
+}
+.dots i{
+    color: grey;
+}
+.dots i:hover{
+    color: #080303b3;
+}
+.twopics{
+    height:17vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 2rem;
+    background-color: white;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    
+}
+.onepic{
+    height:12vh;
+    width:35vw;
+}
+.onepic img{
+    height:11.7vh;
+    width:34.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.twopic{
+    height:12vh;
+    width:35vw;
+    /* border: 2px solid red; */
+}
+.twopic img{
+    height:11.7vh;
+    width:34.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.extraseving{
+    margin-top: 2rem;
+    height:40vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.boxes{
+    height:35vh;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid green; */
+}
+.box1{
+    padding-top: 20px;
+    height:30vh;
+    width:15vw;
+}
+.h2heding{
+    padding:15px;
+}
+.box1 img{
+    height:30vh;
+    width:14.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.womenclothing{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid green;
+    background-color: white;
+}
+.boxes1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box2{
+    height:45vh;
+    width:15vw;
+}
+.box2 img{
+    height:44.5vh;
+    width:14vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.mensclothing{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: white;
+}
+.mensshoes{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+}
+.kidscollections{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid brown;
+    background-color: white;
+}
+.fashionaccessories{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid purple;
+    background-color: white;
+}
+.womenshoes{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid tomato;
+    background-color: white;
+}
+.beautygrooming{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid hotpink;
+    background-color: white;
+}
+.spring{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: white;
+}
+.brandofer{
+    height: 110vh;
+    border: 2px solid green;
+    margin-top: 3rem;
+}
+.box3{
+    height:50vh;
+    width:15vw;
+    /* border:2px solid blue; */
+    margin-top:0.8rem;
+}
+.box3 img{
+    height:49.5vh;
+    width:14.8vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.boxes2{
+    height: 53vh;
+    width: 100%;
+    display: flex;
+    padding:0 5px 0 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offer .h2heding h2{
+    margin-left:1rem;
+}
+.most-loved{
+    margin-top: 2rem;
+    height:114vh;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: white;
+}
+.girlpic img{
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sixbox{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    padding:0 5px 0 5px;
+    justify-content: space-around;
+}
+
+.girl{
+    Height: 46vh;
+    Width: 15.06vw;
+    border:2px solid green;
+}
+
+.girl img{
+    Height:45.5vh;
+    Width: 14.8vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.morebrand{
+    height:112vh;
+    width: 100%;
+    border: 2px solid red;
+    margin-top:4rem;
+}
+.boxes3{
+    Height:105vh;
+    Width: 100%;
+    border:2px solid green;
+    display: flex;
+    gap:5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box4{
+    height: 50vh;
+    width:15.2vw;
+    border: 2px solid blue;
+    
+}
+.box4 img{
+    Height:49.5vh;
+    Width: 14.9vw;
+    background-size: cover;
+   background-repeat: no-repeat;
+}
