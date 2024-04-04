@@ -295,3 +295,136 @@ span{
     transform: scale(1.30);
     transition: all .5s ease-in;
 }
+.fifteenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.fifteenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.fifteenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.sixteenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.sixteenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.sixteenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.seventeenth-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.seventeenth-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.seventeenth-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+.eighteen-line{
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.eighteen-line img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.eighteen-line img:hover{
+    transform: scale(1.30);
+    transition: all .5s ease-in;
+}
+footer{
+    background-color: #0F1516;
+}
+.last-one{
+    display: flex;
+    padding: 20px;
+    padding-top: 50px;
+    height: 200px;
+    padding-left: 30px;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.amazon{
+    height: 30px;
+}
+.write{
+    width: 250px;
+    height: 20px;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+    width: 240px;
+    text-align: center;
+    height: 50px;
+}
+.icon p{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 0.4rem;
+}
+.icon h2{
+    font-size: 10px;
+}
+.first-i{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    border: 1px solid white;
+}
+.fa-apple{
+    font-size: 20px;
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+}
+.second-i{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    border: 1px solid white;
+
+}
+.second-i img{
+    height: 30px;
+    margin-top: 0.5rem;
+}
+.left-side{
+    display: flex;
+    margin-left: 10rem;
+    gap: 10px;
+}
+.left-side img{
+    height: 40px;
+}
