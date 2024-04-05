@@ -311,3 +311,198 @@ body{
     text-decoration: underline;
     color: brown;
 }
+.footer{
+    margin-top: 60px;
+}
+.footer a{
+    color: #fff;
+    background-color: rgb(70, 73, 77);
+    width: 100%;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-left: 35rem;
+    padding-right: 40rem;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 0;
+}
+.bottom-part{
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 50px;
+    background-color: rgb(35, 48, 59);
+    padding-top: 50px;
+    justify-content: center;
+    gap: 8rem;
+    
+}
+.foot-first {
+    margin-left: 10px;
+}
+.foot-first p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.foot-first p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-second {
+    margin-left: 10px;
+}
+.foot-second p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.foot-second p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-third {
+    margin-left: 10px;
+}
+.foot-third p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.foot-third p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-forth {
+    margin-left: 10px;
+}
+.foot-forth p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.foot-forth p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line{
+    margin-top: 0.5px;
+}
+.drop{
+    background-color: rgb(35, 48, 59);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    padding-top: 30px;
+}
+.drop img{
+    height: 55px;
+    width: 90px;
+}
+#select {
+    border: 1.5px solid rgb(197, 195, 195);
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    padding: 5px;
+    border-radius: 4px;
+}
+.country{
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    justify-content: center;
+}
+.country p{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.country p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.other-city{ 
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    justify-content: center;
+}
+.other-city p{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.other-city p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.end{
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    font-size: 11px; 
+    padding: 40px;
+}
+.part{
+    display: flex;
+}
+.part div{
+    padding-left: 163px;
+}
+.part p{
+    padding-top: 8px;
+    color: #cec9c9;
+}
+.part div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fin{
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    font-size: 11px; 
+    padding: 40px;
+    padding-top: 0px;
+}
+.fin-ft{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.fin-ft div{
+    padding-left: 160px;
+}
+.fin-ft p{
+    padding-top: 8px;
+    color: #cec9c9;
+}
+.fin-ft div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comp{
+    display: flex;
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    justify-content: center;
+    gap: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.comp p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.para{
+    display: flex;
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
