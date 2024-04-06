@@ -117,9 +117,12 @@ body{
 .sideBar h3{
     font-size: 0.8rem;
 }
-.items-heading h2{
+.items-heading a{
     font-size: 0.8rem;
     cursor: pointer;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bolder;
 }
 #fresh-menu, #prime_tv{
     border: none;
