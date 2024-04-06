@@ -103,17 +103,22 @@ body{
     background: transparent;
     color: var(--white-color);
     font-weight: bold;
-}.main-container{
+}
+.main-container{
+    background-image: url(/images/background.jpg);
+    background-size: contain;
+    display: flex;
+} 
+.main-container img{
+    width: 100%;
+}
+.cards-container{
+    margin-top:15rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.main-container img{
-    width: 100%;
-}
 .first-images{
-    position: relative;
-    bottom: 17rem;
     display: flex;
     gap: 1rem;
     margin-left: 1rem;
@@ -166,6 +171,7 @@ body{
     background-color: var(--white-color);
     height: 15rem;
     margin-top: 1rem;
+    width: 18.7rem;
 }
 .dry-fruits-cards img{
     width: 9rem;
