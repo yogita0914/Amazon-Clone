@@ -597,7 +597,6 @@ body {
 }
 .fin-ft {
   display: flex;
-  /* justify-content: space-around; */
 }
 .fin-ft div {
   padding-left: 160px;
