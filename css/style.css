@@ -11,11 +11,17 @@ body{
     background-color: #E5E4E2;
 }
 :root{
+    --text-grey-color: rgb(175, 173, 173);
+    --black-color: rgba(0, 0, 0, 0.925);
+    --blue-link-color: #1e549f;
+    --grey-color: rgb(241, 236, 236);
+    --grey-border-color: #e3e3e3;
     --navbar-background-color: #0C2340;
     --blue-color: rgb(7, 7, 247);
     --white-color: #fff;
     --search-button-background-color: #FFAA33;
     --shopping-varieties-background-color: #003153;
+    --red-color: rgb(235, 31, 65);
 }
 .navbar{
     display: flex;
@@ -28,14 +34,20 @@ body{
 .amazon-logo img{
     width: 5rem;
     height: 2rem;
+    cursor: pointer;
+}
+.amazon-logo img:hover{
+    border: 1px solid var(--white-color);
 }
 .location{
     display: flex;
     gap: 0.3rem;
+    cursor: pointer;
 }
 .cart-icon{
     display: flex;
     gap: 0.3rem;
+    cursor: pointer;
 }
 .input-container{
     display: flex;
@@ -48,6 +60,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    cursor: pointer;
 }
 .amazon-heading p, .amazon-heading-2 p, .amazon-heading-3 p{
     font-size: 0.7rem;
@@ -59,6 +72,7 @@ body{
     border: none;
 }
 #drop-down{
+    cursor: pointer;
     padding: 0.55rem;
     border: none;
     outline: none;
@@ -70,14 +84,16 @@ body{
     padding: 0.6rem;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 #country-select{
     background: transparent;
     border: none;
     color: var(--white-color);
+    cursor: pointer;
 }
 #country-select option{
-    color: black;
+    color: var(--black-color)
 }
 .list-varities{
     display: flex;
@@ -91,11 +107,22 @@ body{
     display: flex;
     gap: 0.4rem;
 }
+.sideBar:hover{
+    border: 1px solid var(--white-color);
+    width: 3rem;
+    height: 2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
 .sideBar h3{
     font-size: 0.8rem;
 }
-.items-heading h2{
+.items-heading a{
     font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bolder;
 }
 #fresh-menu, #prime_tv{
     border: none;
@@ -104,10 +131,25 @@ body{
     color: var(--white-color);
     font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+#fresh-menu:hover, #prime_tv:hover{
+    border: 1px solid var(--white-color);
+    width: 5rem;
+    height: 2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+>>>>>>> 8cd151503dfffbdea137687c49123b511b61f4d6
 .main-container{
     background-image: url(/images/background.jpg);
     background-size: contain;
     display: flex;
+<<<<<<< HEAD
+=======
+    padding: 0.2rem;
+    cursor: pointer;
+>>>>>>> 8cd151503dfffbdea137687c49123b511b61f4d6
 } 
 .main-container img{
     width: 100%;
@@ -125,9 +167,9 @@ body{
 }
 .cards{
     background-color: var(--white-color);
-    color: black;
+    color: var(--black-color);
     width: 18.7rem;
-    height: 25rem;
+    height: 26rem;
 }
 .cards h1, .signup-card h1{
     padding: 0.5rem;
@@ -142,15 +184,21 @@ body{
     width: 7rem;
     height: 6rem;
     margin-top: 1.2rem;
+    cursor: pointer;
 }
 .images p{
     font-size: 0.8rem;
 }
-.seeMore{
+.seeMore, .see{
     color: var(--blue-color);
     font-size: 0.8rem;
     margin-left: 1.5rem;
     margin-top: 2rem;
+}
+.seeMore:hover{
+    border-bottom: 1px solid var(--blue-color);
+    width: 4rem;
+    color: var(--blue-link-color);
 }
 .signup-card{
     background-color: var(--white-color);
@@ -164,8 +212,9 @@ body{
     padding: 0.5rem;
     border-radius: 0.6rem;
     outline: none;
-    background-color: #FFBF00;
+    background-color: var(--search-button-background-color);
     border: none;
+    cursor: pointer;
 }
 .dry-fruits-cards{
     background-color: var(--white-color);
@@ -178,6 +227,7 @@ body{
     height: 10rem;
     margin-left: 4.5rem;
     margin-top: 1rem;
+    cursor: pointer;;
 }
 .dry-fruits-cards p{
     font-size: 0.8rem;
@@ -185,3 +235,524 @@ body{
     margin-top: 1rem;
     margin-left: 1rem;
 }
+.second-container{
+    margin-top: 1.5rem;
+    background-color: var(--white-color);
+}
+.image-1{
+    background-color: var(--grey-color);
+    width: 13rem;
+}
+.image-1 img{
+    width: 9rem;
+    height: 11rem;
+    margin-left: 1.9rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.first-container-images{
+    width: 14rem;
+    margin-top: 1rem;
+}
+.first-container-heading, .second-container-heading, .fourth-container-heading
+, .seventh-container-heading{
+    display: flex;
+    font-size: 0.7rem;
+    gap: 0.5rem;
+}
+.first-container-heading a, .second-container-heading a, .fourth-container a,
+.seventh-container-heading a{
+    margin-top: 0.5rem;
+}
+.mobile-images{
+    display: flex;
+    gap: 1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.first-container, .second-container, .fourth-container{
+    margin-top: 1.5rem;
+    background-color: var(--white-color);
+    padding: 1rem;
+    margin-left: 1rem;
+    width: 78rem;
+}
+.image-button{
+    display: flex;
+    gap: 0.4rem;
+}
+.image-button p{
+    font-size: 0.8rem;
+    color: var(--red-color);
+    margin-top: 0.8rem;
+    font-weight: bold;
+}
+.image-button button{
+    background-color: var(--red-color);
+    border: none;
+    margin-top: 0.5rem;
+    color: var(--white-color);
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.price, .details{
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+.second-container-images, .fourth-container-images{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+.image-2 img, .image-4 img{
+    width: 9rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.third-container{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.third-images{
+    display: flex;
+    margin-left: 1.5rem;
+    gap: 1rem;
+}
+.image-3 img{
+    width: 7rem;
+    height: 8rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.cards h1{
+    font-size: 1.2rem;
+}
+.third-container-para-head p,.third-container-para-head h3{
+    font-size: 0.8rem;
+}
+.fifth-container{
+    background-color: var(--white-color);
+    margin-top: 1rem;
+    margin-left: 10rem;
+    width: 60rem;
+}
+.fifth-container-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.shopping-details h1{
+    font-size: 1.2rem;
+}
+.shopping-button{
+    display: flex;
+    gap: 0.5rem;
+}
+.shopping-button button{
+    padding: 0.3rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+.shopping-button p{
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.shopping-details img{
+    width: 5rem;
+    cursor: pointer;
+}
+.shopping-images h1{
+    margin-top: 0.9rem;
+    color: var(--red-color);
+}
+.shopping-images img{
+    width: 3rem;
+    cursor: pointer;
+}
+.shopping-images{
+    display: flex;
+    gap: 0.5rem;
+}
+.delete{
+    font-size: 0.8rem;
+    color: var(--text-grey-color);
+}
+.sixth-container{
+    display: flex;
+    gap: 1rem;
+}
+.sixth-container-images{
+    background-color: var(--white-color);
+    width:18rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    height: 22rem;
+}
+.sixth-container-images h1{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.sixth-container-images img{
+    width: 14rem;
+    height: 12rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.sixth-container-images p{
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: rgb(5, 176, 206);
+}
+.sixth-container-images p:hover{
+    color: var(--blue-link-color);
+    cursor: pointer;
+}
+.seventh-container{
+    background-color: var(--white-color);
+    width: 78rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 19rem;
+}
+.seventh-container-details, .seventh-container-images{
+    display: flex;
+    gap: 1.7rem;
+}
+.video iframe{
+    width: 25rem;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.seventh-container-border{
+    border: 1px solid var(--grey-color);
+    border-radius: 0.3rem;
+    width: 11rem;
+    margin-top: 1rem;
+    height: 15rem;
+}
+.image-5 img{
+    width: 9rem;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.seventh-container-border p{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+.seventh-container-button{
+    display: flex;
+}
+.seventh-container-button p{
+    margin-top: 0.8rem;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.seventh-container-button button{
+    padding: 0.3rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    width: 4rem;
+}
+.rate-heading{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.eight-main-container{
+    background-color: var(--white-color);
+    margin-top: 1.5rem;
+    padding-top: 3rem;
+}
+.eight-container{
+    border: 1px solid var(--grey-border-color);
+    border-radius: 0.3rem;
+    width: 80rem;
+    padding: 1rem;
+}
+.eight-container-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.eight-container-heading h1{
+    font-size: 1.2rem;
+}
+.eight-container-heading p{
+    font-size: 0.8rem;
+}
+.eight-container-images{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.shirt-images{
+    width: 9rem;
+    height: 10rem;
+}
+.image-6 p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+.star-img{
+    width: 5rem;
+}
+.image-6 h4{
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+hr{
+    margin-top: 2rem;
+}
+.signin-button{
+    text-align: center;
+    margin-top: 3rem;
+}
+.signin-button p{
+    font-size: 0.8rem;
+}
+.signin-button button{
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    width: 14rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: var(--search-button-background-color);
+    cursor: pointer;
+}
+.new-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    gap: 0.3rem;
+}
+.new-login h1{
+    font-size: 0.8rem;
+}
+.new-login h2{
+    font-size: 0.7rem;
+    color: var(--blue-color);
+}
+.new-login h2:hover{
+    color: var(--blue-link-color);
+    cursor: pointer;
+}
+.footer {
+    margin-top: 60px;
+  }
+  .footer a {
+    color: #fff;
+    background-color: rgb(74, 85, 100);
+    width: 100%;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-left: 35rem;
+    padding-right: 40.1rem;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .bottom-part {
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 50px;
+    background-color: rgb(41, 55, 68);
+    padding-top: 50px;
+    justify-content: center;
+    gap: 8rem;
+  }
+  .foot-first {
+    margin-left: 10px;
+  }
+  .foot-first p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .foot-first p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .foot-second {
+    margin-left: 10px;
+  }
+  .foot-second p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .foot-second p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .foot-third {
+    margin-left: 10px;
+  }
+  .foot-third p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .foot-third p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .foot-forth {
+    margin-left: 10px;
+  }
+  .foot-forth p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .foot-forth p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .line {
+    margin-top: 0.5px;
+  }
+  .drop {
+    background-color: rgb(41, 55, 68);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .drop img {
+    height: 55px;
+    width: 90px;
+    cursor: pointer;
+  }
+  #select {
+    border: 1.5px solid rgb(197, 195, 195);
+    color: #fff;
+    background-color: rgb(41, 55, 68);
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .country {
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(41, 55, 68);
+    justify-content: center;
+  }
+  .country p {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .country p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .other-city {
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(41, 55, 68);
+    justify-content: center;
+  }
+  .other-city p {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .other-city p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .end {
+    background-color: #222831;
+    color: #dad6d6;
+    font-size: 11px;
+    padding: 40px;
+  }
+  .part {
+    display: flex;
+  }
+  .part div {
+    padding-left: 163px;
+  }
+  .part p {
+    padding-top: 8px;
+    color: #cec9c9;
+  }
+  .part div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .fin {
+    background-color: #222831;
+    color: #dad6d6;
+    font-size: 11px;
+    padding: 40px;
+    padding-top: 0px;
+  }
+  .fin-ft {
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  .fin-ft div {
+    padding-left: 160px;
+  }
+  .fin-ft p {
+    padding-top: 8px;
+    color: #cec9c9;
+  }
+  .fin-ft div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .comp {
+    display: flex;
+    background-color: #222831;
+    color: #dad6d6;
+    justify-content: center;
+    gap: 20px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .comp p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .para {
+    display: flex;
+    background-color: #222831;
+    color: #dad6d6;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }

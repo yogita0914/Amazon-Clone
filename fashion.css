@@ -1,0 +1,881 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* this is first navbar */
+:root{
+    --navbar-background-color: #0C2340;
+    --blue-color: rgb(7, 7, 247);
+    --white-color: #fff;
+    --search-button-background-color: #FFAA33;
+    --shopping-varieties-background-color: #003153;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--navbar-background-color);
+    color: var(--white-color);
+    align-items: center;
+    height:5rem;
+}
+.navbar select {
+    font-size:1.2rem;
+}
+.navbar input{
+    font-size:1.1rem;
+}
+.button-icon i{
+    font-size:1.3rem;
+}
+.amazon-logo img{
+    width:10rem;
+    height:2.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location{
+    display: flex;
+    gap: 0.3rem;
+}
+.location i{
+    font-size:1.3rem;
+}
+.cart-icon{
+    display: flex;
+    gap: 0.3rem;
+}
+.input-container{
+    display: flex;
+}
+.cart-icon i{
+    font-size:2.8rem;
+}
+.cart-icon sup{
+    font-size:1.5rem;
+    margin-top:1.2rem;
+}
+.input-container:focus-within {
+    border: 2px solid var(--search-button-background-color); 
+    border-radius: 0.3rem;
+}
+.amazon-heading, .amazon-heading-2, .amazon-heading-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.amazon-heading p, .amazon-heading-2 p, .amazon-heading-3 p{
+    font-size:1.2rem;
+}
+.input-text input{
+    width: 25rem;
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+}
+#drop-down{
+    padding: 0.55rem;
+    border: none;
+    outline: none;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+.button-icon button{
+    background-color: var(--search-button-background-color);
+    border-radius: 0 0.1rem 0.1rem 0;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+#country-select{
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+}
+#country-select option{
+    color: black;
+}
+.list-varities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--shopping-varieties-background-color);
+    height: 5rem;
+    /* height: 7rem; */
+    color: var(--white-color);
+}
+.list-varities select{
+    font-size:1.2rem;
+}
+
+.sideBar{
+    display: flex;
+    gap: 0.4rem;
+}
+.sideBar i{
+    font-size:1.6rem;
+}
+.sideBar h3{
+    font-size: 1.2rem;
+}
+.items-heading h2{
+    font-size: 0.8rem;
+}
+#fresh-menu, #prime_tv{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+/* this is the second navbar  */
+nav{
+    height:8vh;
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin-top: 25px;
+    font-size:1vw;
+}
+ul li:hover{
+    text-decoration:2px underline orange;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.secondpart{
+    padding: 10px;
+}
+.pictures{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    overflow:hidden ;
+}
+.pictures:hover{
+    overflow-x: scroll;
+}
+.firstpic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: 2px solid green; */
+    margin-left: 20px;
+}
+img{
+    height:200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    margin-top:0.5rem;
+    height:4vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-left: 1rem;
+}
+.all{
+    display: flex;
+}
+
+.thirdsection{
+    height:21.5vh;
+    width: 100%;
+    padding-top:10px;
+}
+.girlboypic{
+    height: 20vh;
+    width: 100%;
+}
+.girlboypic img{
+    height:19.5vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.forthsection{
+    background-color: gainsboro;
+    padding:0 30px 30px 30px;
+}
+.bigimage{
+    /* border: 3px solid red; */
+    width: 100%;
+}
+.bigimage img{
+    height:50vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.whilediv{
+    background-color: white;
+    height:55vh;
+}
+.dots{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    padding-top:10px;
+}
+.dots i{
+    color: grey;
+}
+.dots i:hover{
+    color: #080303b3;
+}
+.twopics{
+    height:17vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 2rem;
+    background-color: white;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    
+}
+.onepic{
+    height:12vh;
+    width:35vw;
+}
+.onepic img{
+    height:11.7vh;
+    width:34.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.twopic{
+    height:12vh;
+    width:35vw;
+    /* border: 2px solid red; */
+}
+.twopic img{
+    height:11.7vh;
+    width:34.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.extraseving{
+    margin-top: 2rem;
+    height:40vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.boxes{
+    height:35vh;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid green; */
+}
+.box1{
+    padding-top: 20px;
+    height:30vh;
+    width:15vw;
+}
+.h2heding{
+    padding:15px;
+}
+.box1 img{
+    height:30vh;
+    width:14.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.womenclothing{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-color: white;
+}
+.boxes1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box2{
+    height:45vh;
+    width:15vw;
+}
+.box2 img{
+    height:44.5vh;
+    width:14vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.mensclothing{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color: white;
+}
+.mensshoes{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.kidscollections{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid brown; */
+    background-color: white;
+}
+.fashionaccessories{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid purple; */
+    background-color: white;
+}
+.womenshoes{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid tomato; */
+    background-color: white;
+}
+.beautygrooming{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid hotpink; */
+    background-color: white;
+}
+.spring{
+    margin-top: 2rem;
+    height:53vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color: white;
+}
+.brandofer{
+    height: 110vh;
+    /* border: 2px solid green; */
+    margin-top: 3rem;
+}
+.box3{
+    height:50vh;
+    width:15vw;
+    /* border:2px solid blue; */
+    margin-top:0.8rem;
+}
+.box3 img{
+    height:49.5vh;
+    width:14.8vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.boxes2{
+    height: 53vh;
+    width: 100%;
+    display: flex;
+    padding:0 5px 0 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offer .h2heding h2{
+    margin-left:1rem;
+}
+.most-loved{
+    margin-top: 2rem;
+    height:114vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color: white;
+}
+.girlpic img{
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sixbox{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    padding:0 5px 0 5px;
+    justify-content: space-around;
+}
+
+.girl{
+    Height: 46vh;
+    Width: 15.06vw;
+    /* border:2px solid green; */
+}
+
+.girl img{
+    Height:45.5vh;
+    Width: 14.8vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.morebrand{
+    height:112vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top:4rem;
+}
+.boxes3{
+    Height:105vh;
+    Width: 100%;
+    /* border:2px solid green; */
+    display: flex;
+    gap:5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box4{
+    height: 50vh;
+    width:15.2vw;
+    /* border: 2px solid blue; */
+}
+.box4 img{
+    Height:49.5vh;
+    Width: 14.9vw;
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+.stores{
+    height:56vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 3rem;
+}
+.boxes4{
+    height:48vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.box5{
+    height:46vh;
+    width: 15.5vw;
+}
+
+.box5 img{
+    height:45.6vh;
+    width: 15.3vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.beauty{
+    display:flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.selectbar{
+    height: 4vh;
+    margin-top:3rem;
+    margin-right:1rem;
+}
+.selectbar select{
+    border-radius:3rem;
+    font-size:18px;
+    box-shadow: 0  2px;
+    border: none;
+}
+.longpage{
+    display:flex;
+}
+.threboxs{
+    height:56vh;
+    width:26vw;
+    border-right: 1px solid  #D5DBDB;
+    border-bottom: 1px solid  #D5DBDB;
+    background-color:#ffffff;
+    padding: 16px 16px 10px 16px;
+    min-height: auto;
+    min-width: auto;
+}
+.boxA1{
+height: 1120vh;
+width: 20.5vw;
+border-right: 1px solid  #D5DBDB;
+border-top:1px solid  #D5DBDB;
+padding: 0 0 0 20px;
+padding: 20px;
+min-height: auto;
+min-width: auto;
+}
+.boxA1 p{
+    color:#048a7a;
+    font-size: 20px;
+    font-weight:100px;
+    padding:0.9;
+}
+.btns{
+    display: flex;
+    height: 6vh;
+    margin: 0 0 4px 0;
+}
+.btns button{
+    height:2.5rem;
+    width: 15rem;
+    background-color: red;
+    color: white;
+    border-radius:0.2rem;
+    border: none;
+    font-size: 20px;
+}
+.btns p{
+    font-size: 20px;
+    color: red;
+    margin-top:0.5rem;
+    margin-left:0.7rem ;
+}
+    
+.pics{
+    height:38vh;
+    width:24vw;
+    margin: 0 0 8px 0;
+    padding: 10px 0 0px 10px;
+    background-color: #ffffff;
+}
+.pics img{
+    height:35vh;
+    width: 22.2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#new img{
+    height:35vh;
+    width:8.5vw;
+    margin-left:8rem;
+}
+.texttype{
+    height:13vh;
+    width:24vw;
+    background-color: #ffffff;
+    color: #0f1111;
+    padding:8px;
+}
+.texttype p{
+    font-size:20px;
+}
+.texttype p:hover{
+    color: #c7511f;
+}
+.dealtype p a{
+    color:#048a7a;
+    text-decoration: none;
+}
+.dealtype p a:hover{
+    color:#c7511f;
+}
+.departments p.color{
+    color:#048a7a;
+}
+.departments p.color:hover{
+    color:#c7511f;
+}
+.departments p{
+    color: black;
+    padding:0.2rem;
+}
+.departments input{
+    margin-right:0.5rem;
+}
+.review p i {
+    color:orange;
+}
+
+/* there is 50 boxes in the container */
+.boxes50{
+    height: 1120vh;
+    width: 80vw;
+    border-top:1px solid  #D5DBDB;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price{
+    margin-top:2rem;  
+}
+.price p{
+    padding:0.2rem;
+}
+.price p:hover{
+    color:#c7511f;
+}
+.dealtype{
+    margin-top:2rem;
+}
+.dealtype p{
+    padding:0.2rem;
+}
+.departments{
+    margin-top: 2rem;
+}
+.off{
+    margin-top: 2rem;
+}
+.off p{
+    padding:0.2rem;
+}
+.off p:hover{
+    color:#c7511f;
+}
+.review{
+    margin-top: 2rem;
+}
+.review p{
+    padding:0.2rem;
+}
+.review p span:hover{
+    color:#c7511f;
+}
+.alldeals p{
+    padding:0.2rem;
+}
+.alldeals{
+    margin-top: 2rem;
+}
+.alldeals p:hover{
+    color:#c7511f;
+}
+/* the footer is start is from here  */
+.footer{
+    margin-top: 60px;
+}
+.goingtotop{
+    width: 100%;
+    text-align: center;
+    height:6vh;
+    padding: 20px;
+    background-color:rgb(70,73,77);
+}
+.goingtotop a{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.bottom-part{
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 50px;
+    background-color: rgb(35, 48, 59);
+    padding-top: 50px;
+    justify-content: center;
+    gap: 8rem;
+}
+.foot-first {
+    margin-left: 10px;
+}
+.foot-first p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.foot-first p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-second {
+    margin-left: 10px;
+}
+.foot-second p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.foot-second p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-third {
+    margin-left: 10px;
+}
+.foot-third p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.foot-third p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-forth {
+    margin-left: 10px;
+}
+.foot-forth p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.foot-forth p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line{
+    margin-top: 0.5px;
+}
+.drop{
+    background-color: rgb(35, 48, 59);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    padding-top: 30px;
+}
+.drop img{
+    height: 10vh;
+    width: 13vw;
+}
+#select {
+    /* border: 1.5px solid rgb(197, 195, 195); */
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    height:5vh;
+    width: 12vw;
+    margin-top:1rem;
+    border-radius: 4px;
+}
+.country{
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    justify-content: center;
+}
+.country p{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.country p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.other-city{ 
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(35, 48, 59);
+    justify-content: center;
+}
+.other-city p{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.other-city p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.end{
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    padding: 40px;
+}
+.part{
+    display: flex;
+}
+.part div{
+    padding-left: 163px;
+}
+.part p{
+    padding-top: 8px;
+    color: #cec9c9;
+    font-size: 18px;
+}
+.part div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fin{
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    font-size: 11px; 
+    padding: 40px;
+    padding-top: 0px;
+}
+.fin-ft{
+    display: flex;
+}
+.fin-ft div{
+    padding-left: 160px;
+}
+.fin-ft p{
+    padding-top: 8px;
+    color: #cec9c9;
+    font-size: 18px;
+}
+.fin-ft div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comp{
+    display: flex;
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    justify-content: center;
+    gap: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.comp p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.para{
+    display: flex;
+    background-color: rgb(18, 25, 31);
+    color: #dad6d6;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.end h3{
+    font-size: 25px;
+}
+.fin h3{
+    font-size: 25px;
+}
+
+.ft-one{
+    margin-left: 10rem;
+}
+.fin-ft{
+    margin-left: 10rem;
+}
+#iprime{
+    margin-left:3.3rem;
+}
