@@ -140,7 +140,7 @@ body{
     cursor: pointer;
 }
 .main-container{
-    background-image: url(/images/background.jpg);
+    background-image: url(/Amazon-Clone/images/background.jpg);
     background-size: contain;
     display: flex;
     padding: 0.2rem;
