@@ -44,6 +44,14 @@
     text-decoration: none;
     font-weight: bolder;
 }
+.customer-link{
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--white-color);
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: 0.9rem;
+}
   .cart-icon {
     display: flex;
     gap: 0.3rem;

@@ -118,7 +118,7 @@ body{
 .sideBar h3{
     font-size: 0.8rem;
 }
-.items-heading a{
+.items-heading a, .sideBar a{
     font-size: 0.8rem;
     cursor: pointer;
     color: var(--white-color);
@@ -140,7 +140,7 @@ body{
     cursor: pointer;
 }
 .main-container{
-    background-image: url(/Amazon-Clone/images/background.jpg);
+    background-image: url(/images/background.jpg);
     background-size: contain;
     display: flex;
     padding: 0.2rem;

@@ -113,7 +113,7 @@ body{
 .sideBar h3{
     font-size: 0.8rem;
 }
-.items-heading a{
+.items-heading a, .sideBar a{
     font-size: 0.8rem;
     cursor: pointer;
     color: var(--white-color);
