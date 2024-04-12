@@ -11,147 +11,141 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <div class="amazon-logo">
-                <img src="data:image/png;base64,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" alt="">
-            </div>
-            <div class="amazon-heading">
-                <p style="font-size:18px; margin-left:1rem;">Delivering to Bengaluru 560067</p>
-                <div class="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <h4>Update location</h4>
-                </div>
-            </div>
-            <div class="input-container">
-                <div class="select-menu">
-                    <select name="All-item" id="drop-down">
-                        <option value="ll">All</option>
-                        <option value="All Categories">All Categories</option>
-                        <option value="Alexa Skills">Alexa Skills</option>
-                        <option value="Amazon Fashion">Amazon Fashion</option>
-                        <option value="Amazon Fresh">Amazon Fresh</option>
-                        <option value="Amazon Fresh Meat">Amazon Fresh Meat</option>
-                        <option value="Amazon Pharmacy">Amazon Pharmacy</option>
-                        <option value="Appliances">Appliances</option>
-                        <option value="Apps & Games">Apps & Games</option>
-                        <option value="Audible Audiobooks">Audible Audiobooks</option>
-                        <option value="Baby">Baby</option>
-                        <option value="Beauty">Beauty</option>
-                        <option value="Books">Books</option>
-                        <option value="Car & Motorbike">Car & Motorbike</option>
-                        <option value="Clothing & Accessories">Clothing & Accessories</option>
-                        <option value="Collectives">Collectives</option>
-                        <option value="Computer & Accessories">Computer & Accessories</option>
-                        <option value="Deals">Deals</option>
-                        <option value="Electronics">Electronics</option>
-                        <option value="Furniture">Furniture</option>
-                        <option value="Jewellery">Jewellery</option>
-                        <option value="Kindle store">Kindle store</option>
-                        <option value="Luggage & Bags">Luggage & Bags</option>
-                        <option value="Movies & Tv Shows">Movies & Tv Shows</option>
-                        <option value="Mp3 Music">Mp3 Music</option>
-                        <option value="Music">Music</option>
-                        <option value="Musical Instruments">Musical Instruments</option>
-                        <option value="Office Products">Office Products</option>
-                        <option value="Pet Supplies">Pet Supplies</option>
-                        <option value="Prime Video">Prime Video</option>
-                    </select>
-                </div>
-                <div class="input-text">
-                    <input type="text" placeholder="Search Amazon.in">
-                </div>
-                <div class="button-icon">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-            </div>
-            <select name="countries" id="country-select">
-                <option type="radio" value="EN">🇮🇳EN</option>
-                <option value="HN">हिंदी-Hi</option>
-                <option value="TA">தமிழ்-TA</option>
-                <option value="TE">తెలుగు-TE</option>
-                <option value="KN">ಕನ್ನಡ-KN</option>
-                <option value="ML">മലയാളം-ML</option>
-                <option value="BN">বাংলা-BN</option>
-                <option value="MR">मराठी-MR</option>
-            </select>
-            <div class="amazon-heading-2">
-                <p>Hello, sign in</p>
-                <select name="" id="account-list">
-                    <option value="">Account & List</option>
-                </select>
-            </div>
-            <div class="amazon-heading-3">
-                <p>Returns</p>
-                <h4>& Orders</h4>
-            </div>
-            <div class="cart-icon">
-                <i class="fa-solid fa-cart-plus"></i>
-                <sup>cart</sup>
-            </div>
-        </nav>
-        <div class="list-varities">
-            <div class="sideBar">
-                <i class="fa-solid fa-bars"></i>
-                <h3>All</h3>
-            </div>
-            <select name="fresh" id="fresh-menu">
-                <option value="fresh">Fresh</option>
-            </select>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Amazon miniTV</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Sell</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Best Sellers</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Mobiles</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Today's Deals</h2>
-            </div>
-            <select name="prime" id="prime_tv">
-                <option value="prime">Prime</option>
-            </select>
-            <div class="items-heading">        
-                <h2 style="font-size:1.2rem;">Customer Service</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Electronics</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">New Release</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Home & Kitchen</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Amazon Pay</h2>
-            </div>
-            <div class="items-heading">
-                <h2 style="font-size:1.2rem;">Fashion</h2>
+    <nav class="navbar">
+        <div class="amazon-logo">
+            <img src="images/Amazon-India-Logo-PNG-White2.png" alt="">
+        </div>
+        <div class="amazon-heading">
+            <p>Delivering to Bengaluru 560067</p>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Update location</h4>
             </div>
         </div>
-    <!-- this is the end of first nav -->
-        <!--From hare is another navbar is stared -->
-        <main>
-            <nav>
-                <ul>
-                    <li>
-                        <h2>Amazon Fashion</h2>
-                    </li>
-                    <li>women</li>
-                    <li>men</li>
-                    <li>Kids</li>
-                    <li>Bags & Luggage</li>
-                    <li>Sportswear</li>
-                    <li>Sales & Deals</li>
-                </ul>
-            </nav>
-        </main>
+        <div class="input-container">
+            <div class="select-menu">
+                <select name="All-item" id="drop-down">
+                    <option value="ll">All</option>
+                    <option value="All Categories">All Categories</option>
+                    <option value="Alexa Skills">Alexa Skills</option>
+                    <option value="Amazon Fashion">Amazon Fashion</option>
+                    <option value="Amazon Fresh">Amazon Fresh</option>
+                    <option value="Amazon Fresh Meat">Amazon Fresh Meat</option>
+                    <option value="Amazon Pharmacy">Amazon Pharmacy</option>
+                    <option value="Appliances">Appliances</option>
+                    <option value="Apps & Games">Apps & Games</option>
+                    <option value="Audible Audiobooks">Audible Audiobooks</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Books">Books</option>
+                    <option value="Car & Motorbike">Car & Motorbike</option>
+                    <option value="Clothing & Accessories">Clothing & Accessories</option>
+                    <option value="Collectives">Collectives</option>
+                    <option value="Computer & Accessories">Computer & Accessories</option>
+                    <option value="Deals">Deals</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Jewellery">Jewellery</option>
+                    <option value="Kindle store">Kindle store</option>
+                    <option value="Luggage & Bags">Luggage & Bags</option>
+                    <option value="Movies & Tv Shows">Movies & Tv Shows</option>
+                    <option value="Mp3 Music">Mp3 Music</option>
+                    <option value="Music">Music</option>
+                    <option value="Musical Instruments">Musical Instruments</option>
+                    <option value="Office Products">Office Products</option>
+                    <option value="Pet Supplies">Pet Supplies</option>
+                    <option value="Prime Video">Prime Video</option>
+                </select>
+            </div>
+            <div class="input-text">
+                <input type="text" placeholder="Search Amazon.in">
+            </div>
+            <div class="button-icon">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <select name="countries" id="country-select">
+            <option type="radio" value="EN">🇮🇳EN</option>
+            <option value="HN">हिंदी-Hi</option>
+            <option value="TA">தமிழ்-TA</option>
+            <option value="TE">తెలుగు-TE</option>
+            <option value="KN">ಕನ್ನಡ-KN</option>
+            <option value="ML">മലയാളം-ML</option>
+            <option value="BN">বাংলা-BN</option>
+            <option value="MR">मराठी-MR</option>
+        </select>
+        <div class="amazon-heading-2">
+            <p>Hello, sign in</p>
+            <select name="" id="account-list">
+                <option value="">Account & List</option>
+            </select>
+        </div>
+        <div class="amazon-heading-3">
+            <p>Returns</p>
+            <h4>& Orders</h4>
+        </div>
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-plus"></i>
+            <sup>cart</sup>
+        </div>
+    </nav>
+    <div class="list-varities">
+        <div class="sideBar">
+            <i class="fa-solid fa-bars"></i>
+            <a href="index.html">All</a>
+        </div>
+        <select name="fresh" id="fresh-menu">
+            <option value="fresh">Fresh</option>
+        </select>
+        <div class="items-heading">
+            <a href="mini_tv.html">Amazon miniTV</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Sell</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Best Sellers</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Mobiles</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Today's Deals</a>
+        </div>
+        <select name="prime" id="prime_tv">
+            <option value="prime">Prime</option>
+        </select>
+        <div class="items-heading">        
+            <a href="customer_Service.html">Customer Service</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Electronics</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">New Release</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Amazon Pay</a>
+        </div>
+        <div class="items-heading">
+            <a href="#">Home & kitchen</a>
+        </div>
+        <div class="items-heading">
+            <a href="fashion.html">Fashion</a>
+        </div>
+    </div>
+    <div class="second-list">
+        <h1>Amazon Fashion</h1>
+        <ul class="unordered-list">
+            <li>Women</li>
+            <li>Men</li>
+            <li>Kids</li>
+            <li>Bags & Luggage</li>
+            <li>Sportswear</li>
+            <li>Sales & Deals</li>
+        </ul>
+    </div>
+    <hr>
         <div class="secondpart">
             <div class="firstbox">
                 <div class="pictures">
@@ -668,7 +662,8 @@
                 </div>
                 <div class="morebrand">
                     <div class="h2heding">
-                        <h2>More Brand Offer</h2>
+                        <h2>More Brand Offer</h2>    /* border: 2px solid purple; */
+
                     </div>
                     <div class="boxes3">
                         <div class="box4">
@@ -709,14 +704,6 @@
                         </div>
                         <div class="box4">
                             <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/Topbrands2/Unrec/Swadeshi_stuff._SX564_QL85_FMpng_.png"
-                                alt="">
-                        </div>
-                        <div class="box4">
-                            <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/Topbrands2/Unrec/Himalaya._SX564_QL85_FMpng_.png"
-                                alt="">
-                        </div>
-                        <div class="box4">
-                            <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/Topbrands2/Unrec/Wildhorn._SX564_QL85_FMpng_.png"
                                 alt="">
                         </div>
                     </div>
@@ -1361,415 +1348,141 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://images-cdn.ubuy.co.in/63720bcf857aab0e57366312-laptop-tote-bag-for-women-15-6-inch.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Beyond Plus - Premium Vegan Leather Tote Bag for Women, Bi</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://i.pinimg.com/originals/2e/28/ec/2e28ec13ab91de382f2c6abc00712c54.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Metro, Clarks & More</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71LAmH3vRML._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Womenswear: BIBA, Max, Van Heusen and more</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71ARmMOKGbL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Best Offers on Destinio Travel Accessories</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/51sdnQqytQL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Branded Suitcase, Backpacks and Duffles - American Tourister, Safari, Skybags, etc.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/21QAyShkIOL._AC_UF226,226_FMjpg_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Best Deals on Shoes </p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71I2IM7gsyL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Budget Backpack & Laptop Backpack starting from 499</p>
-                            </div>
-
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2023/Deals_Nov/Salwar-suits_16.png"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Womenswear: BIBA, Max, Van Heusen and more</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/91Kb+ZVxMdL._SY675_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Premium Handbags from ZOUK, Hidesign, and More</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/81hyHSHK7FL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Storite Moisture Proof 236 L Heavy Duty 1680 Denier Nylon</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/31F3wWUXapL._AC_UF226,226_FMjpg_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Personalized Faux Leather Wallet with Name for Boys or Men or</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/41Q4KsKGzrL._AC_SR320,320_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Back-to-School Deals on Backpacks from Beauty Girls</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/31Up8lad-BL._AC_UF226,226_FMjpg_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>VLCC: Beautiful You, Delivered by Science</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/81qEdLR3FeL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Premium Watches from Fossil and Armani Exchange</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71YVvtqCI2L._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Premium Watches from Fossil and Armani Exchange</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71JE6RVeu3L._AC_UF226,226_FMjpg_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Women's Cute Sports Running Shoes,Walking, Gym Casual</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/51k8Y1Nz6wL._SY575_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Gold Plated Lotus Designer Dazzling Pearl Drop Earrings with</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/41eQRhjK+YL._AC_UF226,226_FMjpg_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Best Deals on Shoes </p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71ZKkbRaCNL._SX679_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Budget Backpack & Laptop Backpack starting from 499</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/71bcowgvllL._SY575_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Pendant Earrings Chain Jewellery Set - 925 Sterling Silver Zircon -</p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/41Q4vd6e-ML._SY575_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Valentine Jewelry Gift for Wife - Pure Silver Necklace Gift Set | With </p>
-                            </div>
-                        </div>
-                        <div class="threboxs">
-                            <div class="pics">
-                                <img src="https://m.media-amazon.com/images/I/5170oxH7-0L._SY695_.jpg" alt="">
-                            </div>
-                            <div class="texttype">
-                                <div class="btns">
-                                    <button>Up to 82% off</button>
-                                    <p>Limited time deal</p>
-                                </div>
-                                <p>Best of Puma footwear</p>
-                            </div>
-                        </div>
-
+                        
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="goingtotop"> <a href="">Back to top</a></div>
-            <div class="bottom-part">
-                <div class="foot-first">
-                    <h3>Get to Know Us</h3>
-                    <p>About Us</p>
-                    <p>Careers</p>
-                    <p>Press Releases</p>
-                    <p>Amazon Science</p>
-                </div>
-                <div class="foot-second">
-                    <h3>Contact with Us</h3>
-                    <p>Facebook</p>
-                    <p>Amazon Bazaar</p>
-                    <p>Twitter</p>
-                    <p>Instagram</p>
-                </div>
-                <div class="foot-third">
-                    <h3>Make Money with Us</h3>
-                    <p>Sell on Amazon</p>
-                    <p>Sell under Amazon Accelerator</p>
-                    <p>Protect and Build Your Brand</p>
-                    <p>Amazon Global Selling</p>
-                    <p>Become an Affiliate</p>
-                    <p>Fulfillment by Amazon</p>
-                    <p>Advertise Your Products</p>
-                    <p>Amazon Pay on Merchants</p>
-                </div>
-                <div class="foot-forth">
-                    <h3>Let Us Help You</h3>
-                    <p>COVID-19 and Amazon</p>
-                    <p>Your Account</p>
-                    <p>Returns Centre</p>
-                    <p>100% Purchase Protection</p>
-                    <p>Amazon App Download</p>
-                    <p>Help</p>
-                </div>
-            </div>
-            <hr>
-            <div class="line">
-                <div class="drop">
-                <img src="https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png" alt="">
-                <select name="count" id="select">
-                    <option type="radio" value="EN">🌐 English</option>
-                    <option value="HN">हिंदी-Hi</option>
-                    <option value="TA">தமிழ்-TA</option>
-                    <option value="TE">తెలుగు-TE</option>
-                    <option value="KN">ಕನ್ನಡ-KN</option>
-                    <option value="ML">മലയാളം-ML</option>
-                    <option value="BN">বাংলা-BN</option>
-                    <option value="MR">मराठी-MR</option>
-                </select>
-            </div></div>
-            <div class="country">
-                    <p>Australia</p>
-                    <p>Brazil</p>
-                    <p>Canada</p>
-                    <p>China</p>
-                    <p>France</p>
-                    <p>Germany</p>
-                    <p>Italy</p>
-                    <p>Japan</p>
-                    <p>Mexico</p>
-                    <p>Netherland</p>
-                    <p>Poland</p>
-                    <p>Singapore</p>
-                    <p>Spain</p>
-                    <p>Turkey</p>
-                    <p>United Arab Emirates</p>
-                </div>
-                <div class="other-city">
-                    <p>United Kingdom</p>
-                    <p>United States</p>
-                </div>
-            </div>
-            <div class="end">
-                <div class="part">
-                    <div class="ft-one">
-                        <h3>AbeBooks</h1>
-                        <p>Books, art</p>
-                        <p>& collections</p>
-                    </div>
-                    <div class="ft-two">
-                        <h3>Amazon Web Services</h1>
-                        <p>Scalable Cloud</p>
-                        <p>Computing Services</p>
-                    </div>
-                    <div class="ft-three">
-                        <h3>Audible</h1>
-                        <p>Download</p>
-                        <p>Audio Books</p>
-                    </div>
-                    <div class="ft-four">
-                        <h3>IMDb</h1>
-                        <p>Movies, Tv</p>
-                        <p>& Celebrities</p>
-                    </div>
-                </div>
-            </div>
-            <div class="fin">
-                <div class="fin-ft">
-                    <div class="extra">
-                        <h3>Shopbop</h1>
-                        <p>Designer</p>
-                        <p>Fashion Brands</p>
-                    </div>
-                    <div class="azn">
-                        <h3>Amazon Business</h1>
-                        <p>Everything For</p>
-                        <p>Your Business</p>
-                    </div>
-                    <div class="bus" id="iprime">
-                        <h3>Prime Now</h1>
-                        <p>2-Hour Delivery</p>
-                        <p>on Everyday Items</p>
-                    </div>
-                    <div class="music">
-                        <h3>Amazon Prime Music</h1>
-                        <p>100 million songs, ad-free</p>
-                        <p>Over 15 million podcast episodes</p>
-                    </div>
-                </div>
-            </div>
-            <div class="comp">
-                <p>Conditions of Use & Sale</p>
-                <p>Privacy Notice</p>
-                <p>Interest-Based Ads</p>
-            </div>
-            <div class="para"><p>© 1996-2024, Amazon.com, Inc. or its affiliates</p></div>
-        </footer>
     </div>
+    <footer class="footer">
+        <div class="backTop"><a href="">Back to top</a></div>
+        <div class="bottom-part">
+            <div class="foot-first">
+                <h3>Get to Know Us</h3>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+                <p>Amazon Science</p>
+            </div>
+            <div class="foot-second">
+                <h3>Contact with Us</h3>
+                <p>Facebook</p>
+                <p>Amazon Bazaar</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </div>
+            <div class="foot-third">
+                <h3>Make Money with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Sell under Amazon Accelerator</p>
+                <p>Protect and Build Your Brand</p>
+                <p>Amazon Global Selling</p>
+                <p>Become an Affiliate</p>
+                <p>Fulfillment by Amazon</p>
+                <p>Advertise Your Products</p>
+                <p>Amazon Pay on Merchants</p>
+            </div>
+            <div class="foot-forth">
+                <h3>Let Us Help You</h3>
+                <p>COVID-19 and Amazon</p>
+                <p>Your Account</p>
+                <p>Returns Centre</p>
+                <p>100% Purchase Protection</p>
+                <p>Amazon App Download</p>
+                <p>Help</p>
+            </div>
+        </div>
+        <div class="line">
+            <div class="drop">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" alt="">
+            <select name="count" id="select">
+                <option type="radio" value="EN">🌐 English</option>
+                <option value="HN">हिंदी-Hi</option>
+                <option value="TA">தமிழ்-TA</option>
+                <option value="TE">తెలుగు-TE</option>
+                <option value="KN">ಕನ್ನಡ-KN</option>
+                <option value="ML">മലയാളം-ML</option>
+                <option value="BN">বাংলা-BN</option>
+                <option value="MR">मराठी-MR</option>
+            </select>
+        </div></div>
+
+        <div class="country">
+                <p>Australia</p>
+                <p>Brazil</p>
+                <p>Canada</p>
+                <p>China</p>
+                <p>France</p>
+                <p>Germany</p>
+                <p>Italy</p>
+                <p>Japan</p>
+                <p>Mexico</p>
+                <p>Netherland</p>
+                <p>Poland</p>
+                <p>Singapore</p>
+                <p>Spain</p>
+                <p>Turkey</p>
+                <p>United Arab Emirates</p>
+            </div>
+            <div class="other-city">
+                <p>United Kingdom</p>
+                <p>United States</p>
+            </div>
+        </div>
+        <div class="end">
+            <div class="part">
+                <div class="ft-one">
+                    <h3>AbeBooks</h3>
+                    <p>Books, art</p>
+                    <p>& collections</p>
+                </div>
+                <div class="ft-two">
+                    <h3>Amazon Web Services</h3>
+                    <p>Scalable Cloud</p>
+                    <p>Computing Services</p>
+                </div>
+                <div class="ft-three">
+                    <h3>Audible</h3>
+                    <p>Download</p>
+                    <p>Audio Books</p>
+                </div>
+                <div class="ft-four">
+                    <h3>IMDb</h3>
+                    <p>Movies, Tv</p>
+                    <p>& Celebrities</p>
+                </div>
+            </div>
+        </div>
+        <div class="fin">
+            <div class="fin-ft">
+                <div class="extra">
+                    <h3>Shopbop</h3>
+                    <p>Designer</p>
+                    <p>Fashion Brands</p>
+                </div>
+                <div class="azn">
+                    <h3>Amazon Business</h3>
+                    <p>Everything For</p>
+                    <p>Your Business</p>
+                </div>
+                <div class="bus">
+                    <h3>Prime Now</h3>
+                    <p>2-Hour Delivery</p>
+                    <p>on Everyday Items</p>
+                </div>
+                <div class="music">
+                    <h3>Amazon Prime Music</h3>
+                    <p>100 million songs, ad-free</p>
+                    <p>Over 15 million podcast episodes</p>
+                </div>
+            </div>
+        </div>
+        <div class="comp">
+            <p>Conditions of Use & Sale</p>
+            <p>Privacy Notice</p>
+            <p>Interest-Based Ads</p>
+        </div>
+        <div class="para"><p>© 1996-2024, Amazon.com, Inc. or its affiliates</p></div>
+    </footer>
 </body>
 </html>
