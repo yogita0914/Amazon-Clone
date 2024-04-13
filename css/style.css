@@ -72,6 +72,7 @@ body{
     border: none;
 }
 #drop-down{
+    width: 110px;
     cursor: pointer;
     padding: 0.55rem;
     border: none;
