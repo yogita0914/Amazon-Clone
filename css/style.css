@@ -117,7 +117,7 @@ body{
 .sideBar h3{
     font-size: 0.8rem;
 }
-.items-heading a{
+.items-heading a, .sideBar a{
     font-size: 0.8rem;
     cursor: pointer;
     color: var(--white-color);
@@ -144,7 +144,6 @@ body{
     display: flex;
     padding: 0.2rem;
     cursor: pointer;
->>>>>>> 8cd151503dfffbdea137687c49123b511b61f4d6
 } 
 .main-container img{
     width: 100%;
