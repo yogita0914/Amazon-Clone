@@ -94,15 +94,11 @@ body{
     display: flex;
     gap: 0.4rem;
 }
-.sideBar h3{
-    font-size: 0.8rem;
-}
-.items-heading h2{
-    font-size: 0.8rem;
-}
-.items-heading a{
+.items-heading a, .sideBar a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 #fresh-menu, #prime_tv{
     border: none;
