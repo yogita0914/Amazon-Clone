@@ -131,8 +131,6 @@ body{
     color: var(--white-color);
     font-weight: bold;
 }
-<<<<<<< HEAD
-=======
 #fresh-menu:hover, #prime_tv:hover{
     border: 1px solid var(--white-color);
     width: 5rem;
@@ -140,13 +138,10 @@ body{
     padding: 0.3rem;
     cursor: pointer;
 }
->>>>>>> 8cd151503dfffbdea137687c49123b511b61f4d6
 .main-container{
     background-image: url(/images/background.jpg);
     background-size: contain;
     display: flex;
-<<<<<<< HEAD
-=======
     padding: 0.2rem;
     cursor: pointer;
 >>>>>>> 8cd151503dfffbdea137687c49123b511b61f4d6
