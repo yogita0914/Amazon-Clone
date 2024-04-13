@@ -675,6 +675,15 @@ min-width: auto;
 .footer {
     margin-top: 200px;
   }
+  .footer a{
+    color: #fff;
+        background-color: rgb(74, 85, 100);
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        padding: 16px;
+    text-align: center;
+    }
   .backTop{
     background-color: rgb(74,85,100);
     color: #fff;
