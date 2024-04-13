@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
     overflow-x: hidden;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +29,10 @@ body{
     color: var(--white-color);
     align-items: center;
     height: 4rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
 }
 .amazon-logo img{
     width: 5rem;
@@ -631,7 +634,7 @@ hr{
     cursor: pointer;
   }
   .line {
-    margin-top: 0.5px;
+    margin-top: 1px;
   }
   .drop {
     background-color: rgb(41, 55, 68);
